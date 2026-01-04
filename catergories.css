@@ -1,22 +1,97 @@
-.category-card {
+.categories .section-title {
+  width: 312px;
+  margin: 0 auto;
+}
+
+.categories-cards {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 24px;
+  margin-top: 64px;
+  margin-bottom: 104px;
 }
 
-.opcao {
-  color: var(--text-secondary-color);
+.categories-cards .card {
   padding: 24px 16px;
   width: 312px;
-  height: 288px;
+  height: 220px;
   box-sizing: border-box;
   border-radius: 16px;
-  background-color: black;
+  color: var(--text-primary-color);
+  background-color: var(--background-secondary-color);
+  padding: 24px;
   text-align: center;
+  text-decoration: none;
 }
 
-.opcao p {
-  font-size: 20px;
-  font-weight: var(--title-weight);
+.categories-cards .card.single-line {
+  padding-top: 50px;
+}
+
+.categories-cards .card.single-line.transfer img {
+  margin: 10px 0 20px;
+}
+
+.categories-cards .card h3 {
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+}
+
+.categories-cards .card .pacotes-nacionais {
+  background-image: url(./img/icone-pacotes-nacionais.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+
+.categories-cards .card .pacotes-internacionais {
+  background-image: url(./img/icone-pacotes-interacionais.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+
+.categories-cards .card .transfer {
+  background-image: url(./img/icone-transfer.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+
+.categories-cards .card .seguro-viagem {
+  background-image: url(./img/icone-seguro-viagem.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .categories .section-title {
+    width: 100%;
+  }
+
+  .categories-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .categories-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .categories-cards .card {
+    width: 330px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .categories-cards .card {
+    width: 280px;
+  }
 }
