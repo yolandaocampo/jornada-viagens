@@ -62,7 +62,6 @@
 }
 
 @media screen and (min-width: 768px) {
-    
   .offers-cards {
     flex-direction: row;
     flex-wrap: wrap;
@@ -71,18 +70,22 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .card {
-    width: 420px;
-    height: 308px;
-    
-  }
-  .card header h3 {
-    font-size: 48px;
-  }
+    .card {
+        width: 588px;
+        height: 308px;
+    }
 
-  .card header span {
-    font-size: 40px;
-  }
+    .card header h3 {
+        font-size: 48px;
+        font-weight: var(--title-weight);
+        margin: 8px 0 0;
+    }
+
+    .card header span {
+        font-size: 40px;
+        margin-top: 24px;
+        display: inline-block;
+    }
 }
 
 @media screen and (min-width: 1440px) {

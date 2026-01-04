@@ -1,0 +1,22 @@
+.category-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.opcao {
+  color: var(--text-secondary-color);
+  padding: 24px 16px;
+  width: 312px;
+  height: 288px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background-color: black;
+  text-align: center;
+}
+
+.opcao p {
+  font-size: 20px;
+  font-weight: var(--title-weight);
+}
