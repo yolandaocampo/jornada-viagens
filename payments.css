@@ -1,4 +1,52 @@
 .payments {
-  width: 312px;
-  margin: 88px auto ;
+  width: auto;
+  margin: 88px 24px;
+}
+
+.payments .image-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  height: 460px;
+  margin-top: 24px;
+}
+
+.image.bag {
+  background: url(img/montagem-mala.jpg) no-repeat;
+  background-size: cover;
+}
+
+.image.passport {
+  background: url(img/montagem-passaporte.png) no-repeat;
+  background-size: cover;
+}
+
+.image.friends {
+  background: url(img/montagem-amigas.jpg) no-repeat;
+  background-size: cover;
+}
+
+.payments .image-gallery .image.colspan-2 {
+  grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+
+ .payments .image-gallery .image.bag {
+  background: url(img/montagem-mala-tablet.jpg) no-repeat;
+  background-size: cover;
+}
+
+.payments .image-gallery .image.passport {
+  background: url(img/montagem-passaporte-tablet.png) no-repeat;
+  background-size: cover;
+}
+
+.payments .image-gallery .image.friends {
+  background: url(img/montagem-amigas-tablet.jpg) no-repeat;
+  background-size: cover;
+}
+.payments .image-gallery .image.colspan-2 {
+  grid-column: span 2;
+}
 }
