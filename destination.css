@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 
-.destination-itens {
+.destinations-itens {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,10 +26,10 @@
 }
 
 .destinations .item header h4 {
-      font-size: 28px;
-      margin: 16px 0;
-      color: var(--text-primary-color);
-    }
+  font-size: 28px;
+  margin: 16px 0;
+  color: var(--text-primary-color);
+}
 
 .destinations .item p {
   font-size: 20px;
@@ -62,18 +62,21 @@
     background-size: cover;
   }
   .destinations .button {
-  width: 280px;
-  text-align: center;
-}
-  
-  
+    width: 280px;
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .destinations {
     width: 900px;
   }
-
+  .destinations-itens {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  
+  
   .destinations .item .img-item {
     width: 100%;
     height: 452px;
@@ -88,4 +91,3 @@
     flex-direction: row;
   }
 }
-
