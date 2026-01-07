@@ -9,13 +9,6 @@
   align-items: center;
   gap: 24px;
 }
-.destinations .item header {
-  display: block;
-  background-color: transparent;
-  position: static;
-  padding: 0;
-  margin-bottom: 24px;
-}
 
 .destinations .item .img-item {
   width: 100%;
@@ -33,20 +26,20 @@
 }
 
 .destinations .item header h4 {
-  font-size: 28px;
-  font-weight: var(--titles-weight);
-  margin: 24px 0;
-}
+      font-size: 28px;
+      margin: 16px 0;
+      color: var(--text-primary-color);
+    }
+
 .destinations .item p {
   font-size: 20px;
   font-weight: var(--text-weight);
   line-height: 32px;
-  margin-bottom: 24px;
 }
 
 .destinations .button {
   width: 100%;
-  text-align: center;
+  margin: 24px 0 40px;
 }
 
 @media screen and (min-width: 768px) {
@@ -68,6 +61,12 @@
     background: url(img/osaka-desk.jpg);
     background-size: cover;
   }
+  .destinations .button {
+  width: 280px;
+  text-align: center;
+}
+  
+  
 }
 
 @media screen and (min-width: 1024px) {
@@ -85,7 +84,8 @@
   .destinations {
     width: 1200px;
   }
-  .destination-itens {
+  .destinations-itens {
     flex-direction: row;
   }
 }
+
