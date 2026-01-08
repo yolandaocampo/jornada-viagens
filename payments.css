@@ -53,6 +53,7 @@
 @media screen and (min-width: 1024px) {
   .payments .content-container {
     display: flex;
+    margin: 0 40px;
   }
   .payments .content-container .text-content {
     width: 360px;
@@ -64,17 +65,16 @@
 }
 
 @media screen and (min-width: 1440px) {
-    .payments .content-container {
-    margin: 64px 122px ;
+  .payments .content-container {
+    margin: 64px 122px;
   }
 }
 
 @media screen and (min-width: 2056px) {
-    .payments .content-container .text-content {
-    width: block;
-    margin-right: 100px;
+  .payments .content-container .text-content {
+    margin-right: 23px;
   }
-    .payments .content-container {
-    margin: 64px 680px ;
+  .payments .content-container {
+    margin: 64px 680px;
   }
 }
