@@ -3,7 +3,7 @@
   margin: 88px 24px;
 }
 
-.payments .image-gallery {
+.payments .content-container .image-gallery {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 24px;
@@ -26,27 +26,55 @@
   background-size: cover;
 }
 
-.payments .image-gallery .image.colspan-2 {
+.payments .content-container .image-gallery .image.colspan-2 {
   grid-column: span 2;
 }
 
 @media screen and (min-width: 768px) {
+  .payments .content-container .image-gallery .image.bag {
+    background: url(img/montagem-mala-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
 
- .payments .image-gallery .image.bag {
-  background: url(img/montagem-mala-tablet.jpg) no-repeat;
-  background-size: cover;
+  .payments .content-container .image-gallery .image.passport {
+    background: url(img/montagem-passaporte-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .content-container .image-gallery .image.friends {
+    background: url(img/montagem-amigas-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+  .payments .content-container .image-gallery .image.colspan-2 {
+    grid-column: span 2;
+  }
 }
 
-.payments .image-gallery .image.passport {
-  background: url(img/montagem-passaporte-tablet.png) no-repeat;
-  background-size: cover;
+@media screen and (min-width: 1024px) {
+  .payments .content-container {
+    display: flex;
+  }
+  .payments .content-container .text-content {
+    width: 360px;
+    margin-right: 23px;
+  }
+  .payments .content-container .image-gallery {
+    width: 790px;
+  }
 }
 
-.payments .image-gallery .image.friends {
-  background: url(img/montagem-amigas-tablet.jpg) no-repeat;
-  background-size: cover;
+@media screen and (min-width: 1440px) {
+    .payments .content-container {
+    margin: 64px 122px ;
+  }
 }
-.payments .image-gallery .image.colspan-2 {
-  grid-column: span 2;
-}
+
+@media screen and (min-width: 2056px) {
+    .payments .content-container .text-content {
+    width: block;
+    margin-right: 100px;
+  }
+    .payments .content-container {
+    margin: 64px 680px ;
+  }
 }
