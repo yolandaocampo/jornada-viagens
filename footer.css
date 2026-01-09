@@ -45,15 +45,21 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
   .main-footer {
     flex-direction: row;
     padding: 52px 120px;
     justify-content: space-between;
   }
-  .main-footer .footer-content {
+
+  .main-footer .footer-content  {
     text-align: left;
   }
+  .main-footer .footer-content .footer-about p{
+    text-align: left;
+    margin: 0 20px;
+  }
+
   .main-footer .footer-social {
     text-align: 165px;
   }
