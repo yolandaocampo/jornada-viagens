@@ -14,7 +14,7 @@
   display: flex;
   margin-top: 8px;
   gap: 24px;
-  align-items: centergit ;
+  align-items: center;
 }
 
 .depoimento-container footer img {
@@ -37,5 +37,19 @@
 @media screen and (min-width: 1024px) {
   .depoimento-container {
     flex-direction: row;
+    margin: 0 60px;
+  }
+  .depoimento-container footer .profile-content .rating .star {
+    font-size: 20px;
+    color: var(--secondary-color);
+    line-height: 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .depoimento-container footer .profile-content .rating .star {
+    font-size: 40px;
+    color: var(--secondary-color);
+    line-height: 32px;
   }
 }
