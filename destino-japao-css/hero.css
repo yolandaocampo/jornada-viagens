@@ -41,25 +41,26 @@
 }
 
 @media screen and (min-width: 768px) {
+  .hero {
+    display: flex;
+  }
   .hero-img {
     height: 620px;
-    background: url(../img/Pagina-Destinos/) no-repeat;
+    background: url(../img/Pagina-Destinos/hero-header-tablet.jpg) no-repeat;
     background-size: cover;
   }
   .footer-img {
     height: 400px;
     background-image: url("./img/footer-tablet.jpg");
   }
-  .hero h2 {
-    padding: 88px 60px;
-    font-size: 32px;
+  .hero h1 p {
   }
 }
 
 @media screen and (min-width: 1024px) {
   .hero-img {
     height: 620px;
-    background: url(./img/hero-desktop.jpg) no-repeat center;
+    background: url() no-repeat center;
     background-size: cover;
   }
   .footer-img {
