@@ -1,0 +1,94 @@
+.payments {
+  width: auto;
+  margin: 88px 24px;
+}
+
+.payments .content-container .image-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  height: 460px;
+  
+}
+
+.payments .content-container .text-content .content-title{
+    font-size: 40px;
+    margin: 0;
+}
+.payments .content-container .text-content h4{
+    font-size: 28px;
+    margin: 24px 0;
+}
+
+.payments .button {
+  width: 100%;
+  margin: 24px 0;
+}
+
+.image.bag {
+  background: url(../img/Pagina-Destinos/montagem-mobile1.jpg) no-repeat;
+  background-size: cover;
+}
+
+.image.passport {
+  background: url(../img/Pagina-Destinos/montagem-mobile2.jpg) no-repeat;
+  background-size: cover;
+}
+
+.image.friends {
+  background: url(../img/Pagina-Destinos/montagem-mobile3.jpg) no-repeat;
+  background-size: cover;
+}
+
+.payments .content-container .image-gallery .image.colspan-2 {
+  grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+  .payments .content-container .image-gallery .image.bag {
+    background: url(img/montagem-mala-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .content-container .image-gallery .image.passport {
+    background: url(img/montagem-passaporte-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .content-container .image-gallery .image.friends {
+    background: url(img/montagem-amigas-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+  .payments .content-container .image-gallery .image.colspan-2 {
+    grid-column: span 2;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .payments .content-container {
+    display: flex;
+    margin: 0 40px;
+  }
+  .payments .content-container .text-content {
+    width: 360px;
+    margin-right: 23px;
+  }
+  .payments .content-container .image-gallery {
+    width: 790px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .payments .content-container {
+    margin: 64px 122px;
+  }
+}
+
+@media screen and (min-width: 2056px) {
+  .payments .content-container .text-content {
+    margin-right: 23px;
+  }
+  .payments .content-container {
+    margin: 64px 680px;
+  }
+}
