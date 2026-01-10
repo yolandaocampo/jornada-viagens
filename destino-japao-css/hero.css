@@ -51,26 +51,29 @@
   }
   .footer-img {
     height: 400px;
-    background-image: url("./img/footer-tablet.jpg");
+    background-image: url(../img/Pagina-Destinos/hero-footer-tablet.png);
   }
-  .hero h1 p {
+  .hero .hero-content {
+    padding: 140px 40px 107px 100px;
+  }
+
+  .hero .hero-content p {
+    font-size: 32px;
+    line-height: 150%;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .hero-img {
     height: 620px;
-    background: url() no-repeat center;
+    background: url(../img/Pagina-Destinos/hero-header-desktop.jpg) no-repeat
+      center;
     background-size: cover;
   }
   .footer-img {
     height: 600px;
-    background-image: url("./img/footer-desktop.jpg");
+    background-image: url(../img/Pagina-Destinos/hero-footer-desktop.png);
     max-width: 1440px;
-  }
-  .hero h2 {
-    padding: 88px 120px;
-    font-size: 32px;
   }
 }
 
@@ -81,16 +84,11 @@
   }
 }
 
-@media screen and (min-width: 1920px) {
-  .hero h2 {
-    padding: 88px 160px;
-  }
-}
+
 
 @media screen and (min-width: 2056px) {
   .footer-img {
     height: 850px;
-    background-image: url("./img/footer-desktop.jpg");
     background-size: contain;
     background-size: 100% auto;
   }
