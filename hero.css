@@ -8,7 +8,7 @@
 .footer-img {
   width: 100%;
   height: 400px;
-  background-image: url("./img/footer-mobile.jpg");
+  background-image: url(./img/footer-mobile.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
