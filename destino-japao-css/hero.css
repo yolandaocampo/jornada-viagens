@@ -1,0 +1,96 @@
+.hero-img {
+  height: 460px;
+  width: 100%;
+  background-image: url(../img/Pagina-Destinos/hero-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.footer-img {
+  width: 100%;
+  height: 400px;
+  background-image: url(../img/Pagina-Destinos/hero-footer.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 88px;
+}
+
+.hero h1 {
+  padding: 65px 24px 16px 24px;
+  font-weight: bold;
+  font-size: 48px;
+  font-family: "montserrat";
+  color: var(--background-primary-color);
+  text-align: left;
+}
+.hero hr {
+  background: var(--secondary-color);
+  border: none;
+  width: 180px;
+  height: 4px;
+  margin: 0 24px;
+}
+
+.hero p {
+  color: var(--background-primary-color);
+  font-size: 20px;
+  line-height: 32px;
+  margin: 16px 24px 0 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-img {
+    height: 620px;
+    background: url(../img/Pagina-Destinos/) no-repeat;
+    background-size: cover;
+  }
+  .footer-img {
+    height: 400px;
+    background-image: url("./img/footer-tablet.jpg");
+  }
+  .hero h2 {
+    padding: 88px 60px;
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-img {
+    height: 620px;
+    background: url(./img/hero-desktop.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .footer-img {
+    height: 600px;
+    background-image: url("./img/footer-desktop.jpg");
+    max-width: 1440px;
+  }
+  .hero h2 {
+    padding: 88px 120px;
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer-img {
+    max-width: 100%;
+    height: 700px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .hero h2 {
+    padding: 88px 160px;
+  }
+}
+
+@media screen and (min-width: 2056px) {
+  .footer-img {
+    height: 850px;
+    background-image: url("./img/footer-desktop.jpg");
+    background-size: contain;
+    background-size: 100% auto;
+  }
+}
