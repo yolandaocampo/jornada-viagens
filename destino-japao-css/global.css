@@ -56,11 +56,11 @@ h1 {
 
 .section-title {
   width: 280px;
-  margin: 0 auto 32px;
+  margin: 88px auto 32px;
 }
 
 .section-title h2 {
-  font-size: 28px;
+  font-size: 32px;
   font-weight: var(--titles-weight);
   margin: 0;
   text-align: center;
@@ -69,7 +69,7 @@ h1 {
 .section-title hr {
   width: 180px;
   height: 4px;
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   border: none;
   margin: 16px auto 32px;
 }
