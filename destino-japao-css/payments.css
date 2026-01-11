@@ -46,17 +46,17 @@
 
 @media screen and (min-width: 768px) {
   .payments .content-container .image-gallery .image.bag {
-    background: url(img/montagem-mala-tablet.jpg) no-repeat;
+    background: url(../img/Pagina-Destinos/montagem-tablet1.jpg) no-repeat;
     background-size: cover;
   }
 
   .payments .content-container .image-gallery .image.passport {
-    background: url(img/montagem-passaporte-tablet.png) no-repeat;
+    background: url(../img/Pagina-Destinos/montagem-tablet2.jpg) no-repeat;
     background-size: cover;
   }
 
   .payments .content-container .image-gallery .image.friends {
-    background: url(img/montagem-amigas-tablet.jpg) no-repeat;
+    background: url(../img/Pagina-Destinos/montagem-tablet3.jpg) no-repeat;
     background-size: cover;
   }
   .payments .content-container .image-gallery .image.colspan-2 {
@@ -76,6 +76,11 @@
   .payments .content-container .image-gallery {
     width: 790px;
   }
+  .payments .button {
+  width: 100%;
+  display: flex;
+  flex-direction:column;
+}
 }
 
 @media screen and (min-width: 1440px) {
